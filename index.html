@@ -7,11 +7,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <header class="header">
@@ -101,7 +102,59 @@
                     </div>
                 </div>
             </div>
+            <div class="auto">
+                <div class="auto__title">Пригнанные нами авто</div>
+                <div class="for_slick_slider auto__imgs">
+                    <div class="auto-images">
+                        <img class="auto-img" src="../auto/img/car-img1.png" alt="" >
+                    </div>
+                    <div class="auto-images">
+                        <img class="auto-img" src="../auto/img/car-img2.png" alt="" >
+                    </div>
+                    <div class="auto-images">
+                        <img class="auto-img" src="../auto/img/car-img3.png" alt="" >
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="contacts__top">
+                <div class="contacts__top-left">
+                    <div class="top-left-title">
+                        <div class="left-title">КОНТАКТЫ</div>
+                        <div class="left-imgs">
+                            <img class="left-img" src="" alt="" >
+                        </div>
+                    </div>
+                    <div class="top-left-info">
+                        <div class="left-info-title">Адресс</div>
+                        <div class="left-info-text">Киев</div>
+                    </div>
+                    <div class="top-left-info">
+                        <div class="left-info-title">Время работы</div>
+                        <div class="left-info-text">Пн-Сб</div>
+                    </div>
+                    <div class="top-left-info">
+                        <div class="left-info-title">Телефон</div>
+                        <div class="left-info-text">38(050)556677</div>
+                    </div>
+                </div>
+                <div class="contacts__top-right">
+                    <div class="top-right-title">Оставить заявку</div>
+                    <div class="top-right-form">
+                        <input class="name" type="text" placeholder="Как вас зовут?">
+                        <input class="phone" type="text" placeholder="Ваш номер телефона" >
+                    </div>
+                    <div class="top-right-button"></div>
+                </div>
+            </div>
+            <div class="contacts__bottom"></div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../auto/js/main.js"></script>
+    <script src="../auto/js/slick.min.js"></script>
 </body>
 </html>

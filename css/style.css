@@ -160,15 +160,12 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .btn{
-    width: 450px;
-    height: 75px;
+    width: 100%;
     margin-bottom: 12px;
-   
-
 }
 
 .btn:hover{
-    width: 500px;
+    width: 110%;
 }
 
 .btn span{
@@ -252,3 +249,31 @@ h1,h2,h3,h4,h5,h6,p{
     line-height: 27px;
     margin-bottom: 20px;
 }
+
+.auto{
+    margin-top: 100px;
+}
+
+.auto__imgs{
+    display: flex;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.auto__title{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+
+
+.slick-dots{
+    position: absolute;
+    top:0;
+}
+
